@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   build:
-    uses: OpenAstronomy/github-actions-workflows/.github/workflows/publish.yml@9f1fedda61294df4c004c05519a3fbf3b8e1f32f  # v2.3.1
+    uses: OpenAstronomy/github-actions-workflows/.github/workflows/publish.yml@2835f0cacddf3f8de198db9afdb5354a5cebe0ef  # v2.6.3
     with:
       upload_to_pypi: ${{ (github.event_name == 'release') && (github.event.action == 'released') }}
       targets: |
