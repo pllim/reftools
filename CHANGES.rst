@@ -1,6 +1,10 @@
 2.3.0 (unreleased)
 ==================
 
+* Dropped support for Python 3.9 and 3.10. Minimum supported Python
+  version is now 3.11. [#103]
+* Minimum supported version of ``astropy`` is now 6. [#103]
+
 2.2.0 (2024-09-16)
 ==================
 
